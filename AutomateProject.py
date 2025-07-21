@@ -74,10 +74,6 @@ crew = Crew(
   verbose=True
 )
 
-import pandas as pd
-
-# Assuming you have already defined `crew` and `inputs` earlier in your script
-
 if __name__ == "__main__":
     # Run the crew
     result = crew.kickoff(inputs=inputs)
