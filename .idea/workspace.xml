@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efbf9748-6747-4a20-8731-373ec6d90b0d" name="Changes" comment="version of Crew multiAgent, agents defnition from Yaml">
-      <change afterPath="$PROJECT_DIR$/AzureTools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/Project_report_agents.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/Project_report_tasks.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customTools.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/projectProgressReport.py" afterDir="false" />
+    <list default="true" id="efbf9748-6747-4a20-8731-373ec6d90b0d" name="Changes" comment="Project Report version of Crew multiAgent">
+      <change afterPath="$PROJECT_DIR$/config/email_engagement_agents.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/email_engagement_tasks.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/lead_qualification_agents.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/lead_qualification_tasks.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salesPipeline.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salesflow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/salesflowcomplex.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AutomateProject.py" beforeDir="false" afterPath="$PROJECT_DIR$/AutomateProject.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,11 +78,20 @@
       <option name="project" value="LOCAL" />
       <updated>1753077193312</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Project Report version of Crew multiAgent">
+      <option name="closed" value="true" />
+      <created>1753091016866</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1753091016866</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="version of Crew multiAgent, agents defnition from Yaml" />
-    <option name="LAST_COMMIT_MESSAGE" value="version of Crew multiAgent, agents defnition from Yaml" />
+    <MESSAGE value="Project Report version of Crew multiAgent" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project Report version of Crew multiAgent" />
   </component>
 </project>
