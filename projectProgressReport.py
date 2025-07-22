@@ -7,7 +7,6 @@ from utils import get_openai_api_key
 import os
 import yaml
 from crewai import Agent, Task, Crew
-import pandas as pd
 
 from AzureTools import ProjectSprintDataFetcherTool, WorkItemDataFetcherTool
 openai_api_key = get_openai_api_key()
@@ -50,17 +49,11 @@ data_analysis = Task(
   agent=analysis_agent
 )
 
-# report_generation = Task(
-#   config=tasks_config['report_generation'],
-#   agent=analysis_agent,
-# )
-
 report_generation = Task(
   config=tasks_config['report_generation'],
   agent=analysis_agent,
   return_direct_result=True
 )
-
 
 # Creating Crew
 crew = Crew(

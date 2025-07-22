@@ -12,7 +12,8 @@ class ProjectSprintDataFetcherTool(BaseTool):
     team: str = os.environ['AZDO_TEAM']
     personal_access_token: str = os.environ['AZDO_PAT']
 
-    def _run(self) -> dict:
+    def _run(self, *args, **kwargs):
+    #def _run(self) -> dict:
         team = self.team
 
         print("Ritesh Team Name is == ", team)
@@ -38,7 +39,8 @@ class WorkItemDataFetcherTool(BaseTool):
     team: str = os.environ['AZDO_TEAM']
     iteration_path: str = os.environ['ITR_PATH']
 
-    def _run(self) -> dict:
+    def _run(self, *args, **kwargs):
+    #def _run(self) -> dict:
         iteration_path = self.iteration_path
 
         query = f"""
@@ -48,8 +50,6 @@ class WorkItemDataFetcherTool(BaseTool):
         AND [System.WorkItemType] IN ('User Story', 'Task', 'Bug')
         ORDER BY [System.ChangedDate] DESC
         """
-
-        print("Ritesh query ==", query)
 
         wiql_url = f"https://dev.azure.com/{self.organization}/{self.project}/_apis/wit/wiql?api-version=7.0"
         response = requests.post(

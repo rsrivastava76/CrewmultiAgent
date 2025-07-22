@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efbf9748-6747-4a20-8731-373ec6d90b0d" name="Changes" comment="sales pipeline flow with sequencial and complex flows">
-      <change afterPath="$PROJECT_DIR$/Content_Creation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/Content_agents.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/Content_tasks.yaml" afterDir="false" />
+    <list default="true" id="efbf9748-6747-4a20-8731-373ec6d90b0d" name="Changes" comment="Content genrator for social media with groq &amp; OpenAI">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model.py" beforeDir="false" afterPath="$PROJECT_DIR$/Model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AutomateProject.py" beforeDir="false" afterPath="$PROJECT_DIR$/AutomateProject.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AzureTools.py" beforeDir="false" afterPath="$PROJECT_DIR$/AzureTools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectProgressReport.py" beforeDir="false" afterPath="$PROJECT_DIR$/projectProgressReport.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirement.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirement.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/salesPipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/salesPipeline.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,21 +28,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="3080O75pVBcfa68Ff2uQLicfaes" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Experiment/crewMultiAgent/config"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Experiment/crewMultiAgent/config&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Experiment\crewMultiAgent\config" />
@@ -92,13 +92,33 @@
       <option name="project" value="LOCAL" />
       <updated>1753100641860</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Content genrator for social media with groq &amp; OpenAI">
+      <option name="closed" value="true" />
+      <created>1753119219916</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1753119219916</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="version of Crew multiAgent, agents defnition from Yaml" />
     <MESSAGE value="Project Report version of Crew multiAgent" />
     <MESSAGE value="sales pipeline flow with sequencial and complex flows" />
-    <option name="LAST_COMMIT_MESSAGE" value="sales pipeline flow with sequencial and complex flows" />
+    <MESSAGE value="Content genrator for social media with groq &amp; OpenAI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Content genrator for social media with groq &amp; OpenAI" />
   </component>
 </project>

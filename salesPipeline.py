@@ -36,6 +36,7 @@ lead_tasks_config = configs['lead_tasks']
 email_agents_config = configs['email_agents']
 email_tasks_config = configs['email_tasks']
 
+
 # Creating Agents
 lead_data_agent = Agent(
   config=lead_agents_config['lead_data_agent'],

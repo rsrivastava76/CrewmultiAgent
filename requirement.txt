@@ -7,5 +7,7 @@
 #matplotlib==3.7.2
 
 crewai==0.75
-#crewai==0.130.0
+#crewai==0.148.0
 crewai_tools==0.13.2
+#crewai_tools==0.55.0
+markdown
